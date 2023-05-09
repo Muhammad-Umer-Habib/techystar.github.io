@@ -1,0 +1,40 @@
+@import "colors";
+
+// body{
+//     background-color: rgb(17, 117, 204);
+// }
+
+nav{
+    width: 100%;
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    background-color: $first;
+    top: 0%;
+    z-index: 10;
+
+    > h1{
+        
+        text-transform: uppercase;
+    }
+
+    > main {
+        text-align: center;
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+
+        >a{
+            color:$dark;
+            margin:1rem;
+
+            &:hover{
+                color: $third;
+            }
+        }
+
+    }
+}
